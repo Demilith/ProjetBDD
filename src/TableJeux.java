@@ -1,3 +1,5 @@
+import DtbGestion.SQLiteJDBCDriverConnection;
+
 import javax.swing.*;
 import java.awt.*;
 import java.sql.*;
@@ -9,22 +11,13 @@ public class TableJeux extends JPanel {
 
     public TableJeux() {
         super(new GridLayout(1, 0));
-        String url = "jdbc:sqlite:src\\Ressources\\bdd_multimedia.db";
-        Connection connexion = null;
-        Statement statement = null;
-        ResultSet resultat = null;
-
-        try {
-            //System.out.print( "Connexion à la base de données..." );
-            connexion = DriverManager.getConnection(url);
-            //System.out.print( "Connexion réussie !" );
-
+        try (Connection connexion = SQLiteJDBCDriverConnection.connect();){
             /* Création de l'objet gérant les requêtes */
-            statement = connexion.createStatement();
+            Statement statement =connexion.createStatement();
             //System.out.print( "Objet requête créé !" );
 
             /* Exécution d'une requête de lecture */
-            resultat = statement.executeQuery("SELECT Titre, Note, Date_sortie, " +
+            ResultSet resultat =statement.executeQuery("SELECT Titre, Note, Date_sortie, " +
                     "Statut, Auteur, Genre" +
                     " FROM Oeuvres WHERE IdType=3;");
             //System.out.print( "Requête \"SELECT id, email, mot_de_passe, nom FROM Utilisateur;\" effectuée !" );
@@ -74,28 +67,6 @@ public class TableJeux extends JPanel {
         } catch (SQLException e) {
             System.out.print("Erreur lors de la connexion : <br/>"
                     + e.getMessage());
-        } finally {
-            //System.out.print( "Fermeture de l'objet ResultSet." );
-            if (resultat != null) {
-                try {
-                    resultat.close();
-                } catch (SQLException ignore) {
-                }
-            }
-            //System.out.print( "Fermeture de l'objet Statement." );
-            if (statement != null) {
-                try {
-                    statement.close();
-                } catch (SQLException ignore) {
-                }
-            }
-            //System.out.print( "Fermeture de l'objet Connection."
-            if (connexion != null) {
-                try {
-                    connexion.close();
-                } catch (SQLException ignore) {
-                }
-            }
         }
     }
 }

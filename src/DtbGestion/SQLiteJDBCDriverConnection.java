@@ -1,44 +1,30 @@
-package net.sqlitetutorial;
+package DtbGestion;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-        /**
- *
-* @author sqlitetutorial.net
-*/
+import java.sql.*;
+
+
 
 public class SQLiteJDBCDriverConnection {
             /**
              * Connect to a sample database
              */
-            public static void connect() {
-                Connection conn = null;
+            public static Connection connect() {
+
+                Connection connexion = null;
+                Statement statement = null;
+                ResultSet resultat = null;
                 try {
                     // db parameters
-                    String url = "jdbc:sqlite:C:/sqlite/db/tests.db";
+                    String url = "jdbc:sqlite:src\\Ressources\\bdd_multimedia.db";
                     // create a connection to the database
-                    conn = DriverManager.getConnection(url);
+                    connexion = DriverManager.getConnection(url);
 
                     System.out.println("Connection to SQLite has been established.");
 
+
                 } catch (SQLException e) {
                     System.out.println(e.getMessage());
-                } finally {
-                    try {
-                        if (conn != null) {
-                            conn.close();
-                        }
-                    } catch (SQLException ex) {
-                        System.out.println(ex.getMessage());
-                    }
                 }
+                return connexion;
             }
         }
-    /**
-     * @param args the command line arguments
-
-    public static void main(String[] args) {
-        connect();
-    }
-     **/
