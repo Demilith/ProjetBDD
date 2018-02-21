@@ -9,7 +9,7 @@ public class TableAlbum extends JPanel {
 
     public TableAlbum() {
         super(new GridLayout(1, 0));
-        String url = "jdbc:sqlite:C:\\Projets Java\\ProjetMultimedia\\src\\Ressources/bdd_multimedia.db";
+        String url = "jdbc:sqlite:C:\\Users\\benmi\\Desktop\\ProjetBDD\\src\\Ressources\\bdd_multimedia.db";
         Connection connexion = null;
         Statement statement = null;
         ResultSet resultat = null;
@@ -26,7 +26,7 @@ public class TableAlbum extends JPanel {
             /* Exécution d'une requête de lecture */
             resultat = statement.executeQuery("SELECT Titre, Note, Date_sortie, " +
                     "Statut, Auteur, Genre" +
-                    " FROM Oeuvres WHERE IdType=4;");
+                    " FROM Oeuvres WHERE IdType=5;");
             //System.out.print( "Requête \"SELECT id, email, mot_de_passe, nom FROM Utilisateur;\" effectuée !" );
 
             String[] columnNames = {"Titre",

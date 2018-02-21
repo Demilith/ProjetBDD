@@ -9,7 +9,7 @@ public class TableSerie extends JPanel{
 
     public TableSerie(){
         super(new GridLayout(1, 0));
-        String url = "jdbc:sqlite:C:\\Projets Java\\ProjetMultimedia\\src\\Ressources/bdd_multimedia.db";
+        String url = "jdbc:sqlite:C:\\Users\\benmi\\Desktop\\ProjetBDD\\src\\Ressources\\bdd_multimedia.db";
         Connection connexion = null;
         Statement statement = null;
         ResultSet resultat = null;

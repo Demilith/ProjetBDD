@@ -4,10 +4,10 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TableFilms extends JPanel{
+public class TableActu extends JPanel{
     private boolean DEBUG = false;
 
-    public TableFilms(){
+    public TableActu(){
         super(new GridLayout(1, 0));
         String url = "jdbc:sqlite:C:\\Users\\benmi\\Desktop\\ProjetBDD\\src\\Ressources\\bdd_multimedia.db";
         Connection connexion = null;
@@ -24,9 +24,7 @@ public class TableFilms extends JPanel{
             //System.out.print( "Objet requête créé !" );
 
             /* Exécution d'une requête de lecture */
-            resultat = statement.executeQuery("SELECT Titre, Note, Date_sortie, " +
-                    "Statut, Auteur, Genre" +
-                    " FROM Oeuvres WHERE IdType=1;");
+            resultat = statement.executeQuery("SELECT * FROM Oeuvres ORDER BY date_add DESC LIMIT 3");
             //System.out.print( "Requête \"SELECT id, email, mot_de_passe, nom FROM Utilisateur;\" effectuée !" );
 
             String[] columnNames = {"Titre",
@@ -94,30 +92,4 @@ public class TableFilms extends JPanel{
             }
         }
     }
-
-    /*public static void main(String[] args) {
-        javax.swing.SwingUtilities.invokeLater(new Runnable() {
-            public void run() {
-                createAndShowGUI();
-
-            }
-        });
-
-    }
-
-    private static void createAndShowGUI() {
-        //Create and set up the window.
-
-        JFrame frame = new JFrame("TableFilms");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-        //Create and set up the content pane.
-        TableFilms newContentPane = new TableFilms();
-        newContentPane.setOpaque(true); //content panes must be opaque
-        frame.setContentPane(newContentPane);
-
-        //Display the window.
-        frame.pack();
-        frame.setVisible(true);
-    }*/
 }

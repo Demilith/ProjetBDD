@@ -14,7 +14,7 @@ public class TabbedPaneDemo extends JPanel {
         JTabbedPane tabbedPane = new JTabbedPane();
         ImageIcon icon = createImageIcon("download.jpg");
 
-        JComponent panel0 = makeTextPanel("Panel #0");
+        JComponent panel0 = new TableActu();
         tabbedPane.addTab("Derniers Ajouts", icon, panel0,
                 "Still does nothing");
         tabbedPane.setMnemonicAt(0, KeyEvent.VK_1);
@@ -30,7 +30,7 @@ public class TabbedPaneDemo extends JPanel {
         JComponent panel2 = new TableFilms();
         tabbedPane.addTab("Films", icon, panel2,
                 "Does twice as much nothing");
-        tabbedPane.setSelectedIndex(2);
+        tabbedPane.setSelectedIndex(0);
         tabbedPane.setMnemonicAt(2, KeyEvent.VK_3);
 
         JComponent panel3 = new TableSerie();
@@ -64,9 +64,17 @@ public class TabbedPaneDemo extends JPanel {
             else if (Index == 1) {
                 System.out.println("Tab changed to: " + " 1 ");
             }
-            else {
+            else if (Index == 2) {
                 System.out.println("Tab changed to: " + " 2 ");
-
+            }
+            else if (Index == 3) {
+                System.out.println("Tab changed to: " + " 3 ");
+            }
+            else if (Index == 4) {
+                System.out.println("Tab changed to: " + " 4 ");
+            }
+            else if (Index == 5) {
+                System.out.println("Tab changed to: " + " 5 ");
             }
             /**switch (Index) {
                 case 0:
