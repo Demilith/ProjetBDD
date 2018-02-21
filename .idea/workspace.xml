@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="03de6f07-3c5b-427d-a4b3-cece57e71251" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/Ressources/bdd_multimedia.db" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/Ressources/bdd_multimedia.db" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableActu.class" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/TableActu.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableAlbum.class" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/TableAlbum.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableFilms.class" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/TableFilms.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableJeux.class" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/TableJeux.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableLivres.class" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/TableLivres.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSerie.class" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/TableSerie.class" />
       <change beforePath="$PROJECT_DIR$/src/TableActu.java" afterPath="$PROJECT_DIR$/src/TableActu.java" />
       <change beforePath="$PROJECT_DIR$/src/TableAlbum.java" afterPath="$PROJECT_DIR$/src/TableAlbum.java" />
       <change beforePath="$PROJECT_DIR$/src/TableFilms.java" afterPath="$PROJECT_DIR$/src/TableFilms.java" />
@@ -22,24 +26,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TableFilms.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TableFilms.java">
+      <file leaf-file-name="TableSerie.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TableSerie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="11" column="69" lean-forward="false" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
+            <state relative-caret-position="252">
+              <caret line="64" column="17" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2538#2539#0" expanded="true" />
+                <element signature="e#2590#2591#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TableLivres.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TableLivres.java">
+      <file leaf-file-name="TableActu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TableActu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="11" column="70" lean-forward="false" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
-              <folding />
+            <state relative-caret-position="441">
+              <caret line="63" column="17" lean-forward="false" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2456#2457#0" expanded="true" />
+                <element signature="e#2508#2509#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,9 +56,26 @@
       <file leaf-file-name="TableAlbum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TableAlbum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="11" column="70" lean-forward="false" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
-              <folding />
+            <state relative-caret-position="462">
+              <caret line="64" column="17" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+              <folding>
+                <element signature="e#2540#2541#0" expanded="true" />
+                <element signature="e#2592#2593#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableFilms.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TableFilms.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="64" column="17" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2538#2539#0" expanded="true" />
+                <element signature="e#2590#2591#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,19 +83,25 @@
       <file leaf-file-name="TableJeux.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TableJeux.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="11" column="69" lean-forward="false" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
-              <folding />
+            <state relative-caret-position="541">
+              <caret line="64" column="17" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+              <folding>
+                <element signature="e#2538#2539#0" expanded="true" />
+                <element signature="e#2590#2591#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TableSerie.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TableSerie.java">
+      <file leaf-file-name="TableLivres.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TableLivres.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="11" column="69" lean-forward="false" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
-              <folding />
+            <state relative-caret-position="441">
+              <caret line="64" column="17" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+              <folding>
+                <element signature="e#2540#2541#0" expanded="true" />
+                <element signature="e#2592#2593#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,11 +136,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/TabbedPaneDemo.java" />
+        <option value="$PROJECT_DIR$/src/TableSerie.java" />
         <option value="$PROJECT_DIR$/src/TableActu.java" />
         <option value="$PROJECT_DIR$/src/TableAlbum.java" />
-        <option value="$PROJECT_DIR$/src/TableJeux.java" />
-        <option value="$PROJECT_DIR$/src/TableSerie.java" />
         <option value="$PROJECT_DIR$/src/TableFilms.java" />
+        <option value="$PROJECT_DIR$/src/TableJeux.java" />
         <option value="$PROJECT_DIR$/src/TableLivres.java" />
       </list>
     </option>
@@ -298,7 +330,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -384,16 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TableActu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="70" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -418,42 +440,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/DtbGestion/Dtbdelete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TabbedPaneDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="273">
           <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TableJeux.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="11" column="69" lean-forward="false" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TableSerie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="11" column="69" lean-forward="false" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TableAlbum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="11" column="70" lean-forward="false" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TableFilms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="11" column="69" lean-forward="false" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -462,9 +460,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TableLivres.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="11" column="70" lean-forward="false" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
-          <folding />
+        <state relative-caret-position="441">
+          <caret line="64" column="17" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+          <folding>
+            <element signature="e#2540#2541#0" expanded="true" />
+            <element signature="e#2592#2593#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TableJeux.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="64" column="17" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+          <folding>
+            <element signature="e#2538#2539#0" expanded="true" />
+            <element signature="e#2590#2591#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TableFilms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="64" column="17" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2538#2539#0" expanded="true" />
+            <element signature="e#2590#2591#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TableAlbum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="64" column="17" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+          <folding>
+            <element signature="e#2540#2541#0" expanded="true" />
+            <element signature="e#2592#2593#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TableActu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="63" column="17" lean-forward="false" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2456#2457#0" expanded="true" />
+            <element signature="e#2508#2509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TableSerie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="64" column="17" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+          <folding>
+            <element signature="e#2538#2539#0" expanded="true" />
+            <element signature="e#2590#2591#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

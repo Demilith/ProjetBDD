@@ -59,7 +59,11 @@ public class TableFilms extends JPanel{
                 data[i] = array.get(i);
             }
 
-            final JTable table = new JTable(data, columnNames);
+            final JTable table = new JTable(data, columnNames){
+                public boolean isCellEditable(int row, int col){
+                    return false;
+                }
+            };
             table.setPreferredScrollableViewportSize(new Dimension(500, 70));
             table.setFillsViewportHeight(true);
 

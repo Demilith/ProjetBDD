@@ -9,6 +9,7 @@ public class TableActu extends JPanel{
 
     public TableActu(){
         super(new GridLayout(1, 0));
+
         String url = "jdbc:sqlite:src\\Ressources\\bdd_multimedia.db";
         Connection connexion = null;
         Statement statement = null;
@@ -57,13 +58,21 @@ public class TableActu extends JPanel{
                 data[i] = array.get(i);
             }
 
-            final JTable table = new JTable(data, columnNames);
+            final JTable table = new JTable(data, columnNames){
+                public boolean isCellEditable(int row, int col){
+                    return false;
+                }
+            };
             table.setPreferredScrollableViewportSize(new Dimension(500, 70));
             table.setFillsViewportHeight(true);
+
+
+
 
             //Create the scroll pane and add the table to it.
             JScrollPane scrollPane = new JScrollPane(table);
             add(scrollPane);
+
 
         } catch (SQLException e) {
             System.out.print("Erreur lors de la connexion : <br/>"
