@@ -17,7 +17,7 @@ public class Test {
 
         //Display the window.
         //frame.pack();
-        frame.setSize(800, 600/16*9);
+        frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }

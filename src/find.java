@@ -21,15 +21,16 @@ public class find extends JPanel {
         //ImageIcon icone2 = new ImageIcon("src/book.png");
         image = new JLabel();
 
-        JTextField textField = new JTextField("Tapez votre recherche ici");
-        textField.setBounds(5, 5, 280, 50);
-
         JLabel recherche = new JLabel("Nom super classe de la Solution");
         //recherche.setDisplayedMnemonic(KeyEvent.VK_U);
 
-        this.add(image, BorderLayout.WEST);
+
         this.add(recherche, BorderLayout.CENTER);
-        this.add(textField, BorderLayout.EAST);
+
+        ImageIcon icone = new ImageIcon("src/star.png");
+        JLabel image = new JLabel(icone);
+        this.add(image, BorderLayout.WEST);
+        this.setVisible(true);
 
 
 

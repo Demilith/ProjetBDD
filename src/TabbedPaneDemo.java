@@ -14,12 +14,12 @@ public class TabbedPaneDemo extends JPanel {
         JTabbedPane tabbedPane = new JTabbedPane();
         ImageIcon icon = createImageIcon("download.jpg");
 
-        JComponent panel0 = new TableActu();
+        JComponent panel0 = new TableSortFilterActu();
         tabbedPane.addTab("Derniers Ajouts", icon, panel0,
                 "Still does nothing");
         tabbedPane.setMnemonicAt(0, KeyEvent.VK_1);
 
-        JComponent panel1 = new TableLivres();
+        JComponent panel1 = new TableSortFilterLivre();
         tabbedPane.addTab("Livres", icon, panel1,
                 "Does nothing");
         tabbedPane.setSelectedIndex(1);
@@ -27,28 +27,31 @@ public class TabbedPaneDemo extends JPanel {
         //panel1.add(simple);
         tabbedPane.setMnemonicAt(1, KeyEvent.VK_2);
 
-        JComponent panel2 = new TableFilms();
+        JComponent panel2 = new TableSortFilterFilm();
         tabbedPane.addTab("Films", icon, panel2,
                 "Does twice as much nothing");
         tabbedPane.setSelectedIndex(0);
         tabbedPane.setMnemonicAt(2, KeyEvent.VK_3);
 
-        JComponent panel3 = new TableSerie();
+        JComponent panel3 = new TableSortFilterSerie();
         tabbedPane.addTab("Série", icon, panel3,
                 "Still does nothing");
         tabbedPane.setMnemonicAt(3, KeyEvent.VK_4);
 
-        JComponent panel4 = new TableAlbum();
+        JComponent panel4 = new TableSortFilterAlbum();
         panel4.setPreferredSize(new Dimension(410, 50));
         tabbedPane.addTab("Album", icon, panel4,
                 "Does nothing at all");
         tabbedPane.setMnemonicAt(4, KeyEvent.VK_5);
 
-        JComponent panel5 = new TableJeux();
+        JComponent panel5 = new TableSortFilterJeux();
         tabbedPane.addTab("Jeux Vidéos", icon, panel5,
                 "Still does nothing");
         tabbedPane.setMnemonicAt(5, KeyEvent.VK_6);
         //Add the tabbed pane to this panel.
+
+
+
         add(tabbedPane);
 
         //The following line enables to use scrolling tabs.
@@ -58,7 +61,7 @@ public class TabbedPaneDemo extends JPanel {
             JTabbedPane sourceTabbedPane = (JTabbedPane) changeEvent.getSource();
             int Index = sourceTabbedPane.getSelectedIndex();
             //System.out.println("Default Index:" + Index);
-            if (Index == 0) {
+            /*if (Index == 0) {
                 System.out.println("Tab changed to: " + " 0 ");
             }
             else if (Index == 1) {
@@ -75,7 +78,7 @@ public class TabbedPaneDemo extends JPanel {
             }
             else if (Index == 5) {
                 System.out.println("Tab changed to: " + " 5 ");
-            }
+            }*/
             /**switch (Index) {
                 case 0:
                     public void changed (ActionEvent e) {
