@@ -29,7 +29,7 @@ public class find extends JPanel {
 
         this.add(recherche, BorderLayout.CENTER);
 
-        ImageIcon icone = new ImageIcon("src/star.png");
+        ImageIcon icone = new ImageIcon("src/Ressources/star.png");
         JLabel image = new JLabel(icone);
         this.add(image, BorderLayout.WEST);
         this.setVisible(true);

@@ -2,53 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcdd35fd-5094-40c8-ac4b-21183f8aada1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/AddForm.form" afterPath="$PROJECT_DIR$/src/AddForm.form" />
-      <change beforePath="$PROJECT_DIR$/AddForm.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ProjetBDD.iml" afterPath="$PROJECT_DIR$/ProjetBDD.iml" />
-      <change beforePath="$PROJECT_DIR$/StarRater.java" afterPath="$PROJECT_DIR$/src/StarRater.java" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/DtbGestion/crap" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/Fenetre.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/ImageFrame.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/Ressources/bdd_multimedia.db" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TabbedPaneDemo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterActu$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterActu$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterActu.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterAlbum$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterAlbum$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterAlbum.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterFilm$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterFilm$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterFilm.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterJeux$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterJeux$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterJeux.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterLivre$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterLivre$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterLivre.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterSerie$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterSerie$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterSerie.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/Test.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/book.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/book.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/download.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/find.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/star.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/star.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Fenetre.java" afterPath="$PROJECT_DIR$/src/Fenetre.java" />
-      <change beforePath="$PROJECT_DIR$/src/ImageFrame.java" afterPath="$PROJECT_DIR$/src/ImageFrame.java" />
+      <change beforePath="$PROJECT_DIR$/ProjetMultimedia.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/StarRating (by noblemaster).psd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bdd_multimedia.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/StarRating (by noblemaster).psd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/bdd_multimedia.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TabbedPaneDemo.class" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/src/TabbedPaneDemo.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/book.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/book.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/download.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/star.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/star.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/TabbedPaneDemo.java" afterPath="$PROJECT_DIR$/src/TabbedPaneDemo.java" />
-      <change beforePath="$PROJECT_DIR$/src/TableSortFilterActu.java" afterPath="$PROJECT_DIR$/src/TableSortFilterActu.java" />
-      <change beforePath="$PROJECT_DIR$/src/TableSortFilterAlbum.java" afterPath="$PROJECT_DIR$/src/TableSortFilterAlbum.java" />
-      <change beforePath="$PROJECT_DIR$/src/TableSortFilterFilm.java" afterPath="$PROJECT_DIR$/src/TableSortFilterFilm.java" />
-      <change beforePath="$PROJECT_DIR$/src/TableSortFilterJeux.java" afterPath="$PROJECT_DIR$/src/TableSortFilterJeux.java" />
-      <change beforePath="$PROJECT_DIR$/src/TableSortFilterLivre.java" afterPath="$PROJECT_DIR$/src/TableSortFilterLivre.java" />
-      <change beforePath="$PROJECT_DIR$/src/TableSortFilterSerie.java" afterPath="$PROJECT_DIR$/src/TableSortFilterSerie.java" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" afterPath="$PROJECT_DIR$/src/Test.java" />
+      <change beforePath="$PROJECT_DIR$/src/book.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/book.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/download.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/find.java" afterPath="$PROJECT_DIR$/src/find.java" />
+      <change beforePath="$PROJECT_DIR$/src/star.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/star.png" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="find.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="find.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/find.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="294">
+              <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -143,7 +115,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TableSortFilterFilm.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TabbedPaneDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TabbedPaneDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2231">
+              <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableSortFilterFilm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TableSortFilterFilm.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1748">
@@ -177,6 +159,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/AddForm.java" />
         <option value="$PROJECT_DIR$/src/StarRater.java" />
+        <option value="$PROJECT_DIR$/src/TabbedPaneDemo.java" />
+        <option value="$PROJECT_DIR$/src/find.java" />
       </list>
     </option>
   </component>
@@ -213,12 +197,6 @@
               <item name="ProjetBDD" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjetBDD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetBDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetBDD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AddForm" type="e9f4de52:FormNode" />
             </path>
           </expand>
           <select />
@@ -466,10 +444,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/find.java">
+    <entry file="file://$PROJECT_DIR$/src/TableSortFilterFilm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="-1748">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TabbedPaneDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2231">
+          <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -482,10 +468,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TableSortFilterFilm.java">
+    <entry file="file://$PROJECT_DIR$/src/find.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1748">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="294">
+          <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
           <folding />
         </state>
       </provider>

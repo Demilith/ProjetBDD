@@ -16,7 +16,7 @@ public class TabbedPaneDemo extends JPanel {
         super(new GridLayout(1, 1));
 
         JTabbedPane tabbedPane = new JTabbedPane();
-        ImageIcon icon = createImageIcon("download.jpg");
+        ImageIcon icon = createImageIcon("Ressources/download.jpg");
 
         JComponent panel0 = new TableSortFilterActu();
         tabbedPane.addTab("Derniers Ajouts", icon, panel0,
