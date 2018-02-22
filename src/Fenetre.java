@@ -1,3 +1,5 @@
+package src;
+
 import java.awt.GridLayout;
 import javax.swing.*;
 import java.awt.*;
@@ -21,6 +23,7 @@ public class Fenetre extends JPanel implements ActionListener{
         //On ajoute le bouton au content pane de la JFrame
 
         Button BtnCrea = new Button("Création");
+            BtnCrea.addActionListener(this);
         Button BtnDelete = new Button("Suppression");
         Button BtnModif = new Button("Modifier");
         Button BtnConsult = new Button("Consulter");
@@ -38,6 +41,9 @@ public class Fenetre extends JPanel implements ActionListener{
 
     @Override
     public void actionPerformed(ActionEvent e) {
-
+        JFrame frame = new JFrame();
+        frame.add(new AddForm().$$$getRootComponent$$$());
+        frame.setVisible(true);
+        frame.setSize(400, 400);
     }
 }
