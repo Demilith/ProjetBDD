@@ -25,11 +25,12 @@ public class TableSortFilterActu extends JPanel {
             //System.out.print( "Objet requête créé !" );
 
             /* Exécution d'une requête de lecture */
-            ResultSet resultat = statement.executeQuery("SELECT * FROM Oeuvres ORDER BY date_add DESC LIMIT 3");
+            ResultSet resultat = statement.executeQuery("SELECT * FROM Oeuvres, TypesOeuvre WHERE IdTypes=IdType" +
+                    " ORDER BY date_add DESC LIMIT 3");
 
             String[] columnNames = {"Titre",
                     "Note", "Date_sortie",
-                    "Statut", "Auteur", "Genre"};
+                    "Statut", "Auteur", "Genre", "Type"};
 
             List<Object[]> array = new ArrayList<>();
             while (resultat.next()) {
@@ -39,8 +40,9 @@ public class TableSortFilterActu extends JPanel {
                 String recherche7 = resultat.getString("Statut");
                 String recherche8 = resultat.getString("Auteur");
                 String recherche11 = resultat.getString("Genre");
+                String recherche12 = resultat.getString("TypeOeuvre");
                 array.add(new Object[]{recherche, recherche2, recherche4, recherche7
-                        , recherche8, recherche11});
+                        , recherche8, recherche11, recherche12});
             }
             Object[][] data = new Object[array.size()][];
             for (int i = 0; i < array.size(); i++) {

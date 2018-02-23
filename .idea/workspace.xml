@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b021137d-20c3-496b-9dda-60e0eb613e23" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/JeuxVideo.class" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/JeuxVideo.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/Livre.class" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/Livre.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/Musique.class" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/Musique.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/Serie.class" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/Serie.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/AddForm.class" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/src/AddForm.class" />
-      <change beforePath="$PROJECT_DIR$/src/AddForm.form" afterPath="$PROJECT_DIR$/src/AddForm.form" />
-      <change beforePath="$PROJECT_DIR$/src/AddForm.java" afterPath="$PROJECT_DIR$/src/AddForm.java" />
-      <change beforePath="$PROJECT_DIR$/src/JeuxVideo.form" afterPath="$PROJECT_DIR$/src/JeuxVideo.form" />
-      <change beforePath="$PROJECT_DIR$/src/JeuxVideo.java" afterPath="$PROJECT_DIR$/src/JeuxVideo.java" />
-      <change beforePath="$PROJECT_DIR$/src/Livre.form" afterPath="$PROJECT_DIR$/src/Livre.form" />
-      <change beforePath="$PROJECT_DIR$/src/Livre.java" afterPath="$PROJECT_DIR$/src/Livre.java" />
-      <change beforePath="$PROJECT_DIR$/src/Musique.form" afterPath="$PROJECT_DIR$/src/Musique.form" />
-      <change beforePath="$PROJECT_DIR$/src/Musique.java" afterPath="$PROJECT_DIR$/src/Musique.java" />
-      <change beforePath="$PROJECT_DIR$/src/Serie.form" afterPath="$PROJECT_DIR$/src/Serie.form" />
-      <change beforePath="$PROJECT_DIR$/src/Serie.java" afterPath="$PROJECT_DIR$/src/Serie.java" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/bdd_multimedia.db" afterPath="$PROJECT_DIR$/src/Ressources/bdd_multimedia.db" />
+      <change beforePath="$PROJECT_DIR$/src/TableSortFilterActu.java" afterPath="$PROJECT_DIR$/src/TableSortFilterActu.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,11 +28,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fenetre.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Fenetre.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Fenetre.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="651">
               <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableSortFilterActu.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TableSortFilterActu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="27" column="112" lean-forward="false" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="112" />
               <folding />
             </state>
           </provider>
@@ -146,6 +140,7 @@
         <option value="$PROJECT_DIR$/src/Musique.java" />
         <option value="$PROJECT_DIR$/src/JeuxVideo.java" />
         <option value="$PROJECT_DIR$/src/Fenetre.java" />
+        <option value="$PROJECT_DIR$/src/TableSortFilterActu.java" />
       </list>
     </option>
   </component>
@@ -230,31 +225,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Musique">
+  <component name="RunManager" selected="Application.Test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="AddForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="src.AddForm" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ProjetBDD" />
-      <envs />
     </configuration>
     <configuration name="JeuxVideo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -301,6 +277,25 @@
     <configuration name="Serie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Serie" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ProjetBDD" />
+      <envs />
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="src.Test" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -404,17 +399,17 @@
       <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Application.Livre" />
       <item index="2" class="java.lang.String" itemvalue="Application.JeuxVideo" />
-      <item index="3" class="java.lang.String" itemvalue="Application.AddForm" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Serie" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Musique" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Serie" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Musique" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Musique" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Livre" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Serie" />
-        <item index="3" class="java.lang.String" itemvalue="Application.JeuxVideo" />
-        <item index="4" class="java.lang.String" itemvalue="Application.AddForm" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Musique" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Livre" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Serie" />
+        <item index="4" class="java.lang.String" itemvalue="Application.JeuxVideo" />
       </list>
     </recent_temporary>
   </component>
@@ -489,14 +484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TableSortFilterActu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -621,8 +608,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Fenetre.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="651">
           <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TableSortFilterActu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="27" column="112" lean-forward="false" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="112" />
           <folding />
         </state>
       </provider>
