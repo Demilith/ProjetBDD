@@ -14,7 +14,7 @@ public class AddForm extends Container {
     private JTextField supportTextField;
     private JTextField langueTextField;
     private JTextField origineTextField;
-    private JFormattedTextField a1999FormattedTextField;
+    private JFormattedTextField dateDeSortieFormattedTextField;
     private JTextField duréeTextField;
 
 
@@ -104,15 +104,15 @@ public class AddForm extends Container {
         gbc.anchor = GridBagConstraints.WEST;
         gbc.fill = GridBagConstraints.HORIZONTAL;
         panel1.add(langueTextField, gbc);
-        a1999FormattedTextField = new JFormattedTextField();
-        a1999FormattedTextField.setText("1999");
+        dateDeSortieFormattedTextField = new JFormattedTextField();
+        dateDeSortieFormattedTextField.setText("Date de sortie");
         gbc = new GridBagConstraints();
         gbc.gridx = 1;
         gbc.gridy = 2;
         gbc.weightx = 1.0;
         gbc.anchor = GridBagConstraints.WEST;
         gbc.fill = GridBagConstraints.HORIZONTAL;
-        panel1.add(a1999FormattedTextField, gbc);
+        panel1.add(dateDeSortieFormattedTextField, gbc);
         commentaireTextArea = new JTextArea();
         commentaireTextArea.setText("Commentaire");
         gbc = new GridBagConstraints();
@@ -146,7 +146,6 @@ public class AddForm extends Container {
         gbc.anchor = GridBagConstraints.WEST;
         gbc.fill = GridBagConstraints.HORIZONTAL;
         panel1.add(duréeTextField, gbc);
-
     }
 
     /**
