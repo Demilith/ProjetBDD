@@ -50,6 +50,7 @@ public class TableSortFilterActu extends JPanel {
             DefaultTableModel model = new DefaultTableModel(data, columnNames);
             JTable jTable = new JTable(model);
 
+
             TableRowSorter<TableModel> rowSorter
                     = new TableRowSorter<>(jTable.getModel());
             JTextField jtfFilter = new JTextField();

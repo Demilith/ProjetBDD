@@ -8,7 +8,7 @@ public class AddForm extends Container {
     private JCheckBox statutCheckBox;
     private JTextArea commentaireTextArea;
     private JTextField titreTextField;
-    private JButton button1;
+    private JButton validerButton;
     private JTextField genreTextField;
     private JTextField auteurTextField;
     private JTextField supportTextField;
@@ -42,15 +42,15 @@ public class AddForm extends Container {
     private void $$$setupUI$$$() {
         panel1 = new JPanel();
         panel1.setLayout(new GridBagLayout());
-        button1 = new JButton();
-        button1.setText("Button");
+        validerButton = new JButton();
+        validerButton.setText("Valider");
         GridBagConstraints gbc;
         gbc = new GridBagConstraints();
         gbc.gridx = 1;
         gbc.gridy = 7;
         gbc.weightx = 1.0;
         gbc.fill = GridBagConstraints.HORIZONTAL;
-        panel1.add(button1, gbc);
+        panel1.add(validerButton, gbc);
         supportTextField = new JTextField();
         supportTextField.setText("Support");
         gbc = new GridBagConstraints();

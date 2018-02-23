@@ -1,55 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcdd35fd-5094-40c8-ac4b-21183f8aada1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_21_0.xml" afterPath="" />
+    <list default="true" id="b021137d-20c3-496b-9dda-60e0eb613e23" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_21_01.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/AddForm.form" afterPath="$PROJECT_DIR$/AddForm.form" />
-      <change beforePath="$PROJECT_DIR$/AddForm.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ProjetBDD.iml" afterPath="$PROJECT_DIR$/ProjetBDD.iml" />
-      <change beforePath="$PROJECT_DIR$/StarRater.java" afterPath="$PROJECT_DIR$/src/StarRater.java" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/DtbGestion/crap" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/Fenetre.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/ImageFrame.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/Ressources/bdd_multimedia.db" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TabbedPaneDemo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterActu$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterActu$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterActu.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterAlbum$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterAlbum$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterAlbum.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterFilm$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterFilm$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterFilm.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterJeux$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterJeux$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterJeux.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterLivre$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterLivre$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterLivre.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterSerie$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterSerie$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/TableSortFilterSerie.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/Test.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/book.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/book.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/download.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/find.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/star.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/star.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Fenetre.java" afterPath="$PROJECT_DIR$/src/Fenetre.java" />
-      <change beforePath="$PROJECT_DIR$/src/ImageFrame.java" afterPath="$PROJECT_DIR$/src/ImageFrame.java" />
-      <change beforePath="$PROJECT_DIR$/src/TabbedPaneDemo.java" afterPath="$PROJECT_DIR$/src/TabbedPaneDemo.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/.idea/libraries/sqlite_jdbc_3_21_0.xml" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/.idea/libraries/sqlite_jdbc_3_21_0.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/.idea/uiDesigner.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/DtbGestion/DtbSelect.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/DtbGestion/Dtbdelete.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/DtbGestion/Dtbupdate.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/DtbGestion/SQLiteJDBCDriverConnection.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/ProjetBDD.iml" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/ProjetBDD.iml" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/ProjetMultimedia.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/net/sqlitetutorial/Dtbinsert.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/AddForm.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/Fenetre.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/ImageFrame.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/StarRater$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/StarRater$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/StarRater$StarListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/StarRater.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TabbedPaneDemo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterActu$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterActu$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterActu.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterAlbum$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterAlbum$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterAlbum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterFilm$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterFilm$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterFilm.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterJeux$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterJeux$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterJeux.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterLivre$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterLivre$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterLivre.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterSerie$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterSerie$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterSerie.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/Test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/find.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/AddForm.form" afterPath="$PROJECT_DIR$/src/AddForm.form" />
+      <change beforePath="$PROJECT_DIR$/src/AddForm.java" afterPath="$PROJECT_DIR$/src/AddForm.java" />
       <change beforePath="$PROJECT_DIR$/src/TableSortFilterActu.java" afterPath="$PROJECT_DIR$/src/TableSortFilterActu.java" />
-      <change beforePath="$PROJECT_DIR$/src/TableSortFilterAlbum.java" afterPath="$PROJECT_DIR$/src/TableSortFilterAlbum.java" />
-      <change beforePath="$PROJECT_DIR$/src/TableSortFilterFilm.java" afterPath="$PROJECT_DIR$/src/TableSortFilterFilm.java" />
-      <change beforePath="$PROJECT_DIR$/src/TableSortFilterJeux.java" afterPath="$PROJECT_DIR$/src/TableSortFilterJeux.java" />
-      <change beforePath="$PROJECT_DIR$/src/TableSortFilterLivre.java" afterPath="$PROJECT_DIR$/src/TableSortFilterLivre.java" />
-      <change beforePath="$PROJECT_DIR$/src/TableSortFilterSerie.java" afterPath="$PROJECT_DIR$/src/TableSortFilterSerie.java" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" afterPath="$PROJECT_DIR$/src/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/find.java" afterPath="$PROJECT_DIR$/src/find.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,93 +54,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AddForm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AddForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="initializer##0;class#AddForm#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="find.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/find.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StarRater.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StarRater.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TableSortFilterJeux.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TableSortFilterJeux.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fenetre.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Fenetre.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TableSortFilterAlbum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TableSortFilterAlbum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TableSortFilterLivre.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TableSortFilterLivre.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TableSortFilterActu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TableSortFilterActu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -161,14 +70,6 @@
         <entry key="$PROJECT_DIR$/../tiny_java" value="PREVIEW" />
         <entry key="$USER_HOME$/library_project" value="PREVIEW" />
       </map>
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/AddForm.java" />
-        <option value="$PROJECT_DIR$/src/StarRater.java" />
-      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -192,7 +93,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,17 +113,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/sqlite-jdbc-3.21.0.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -347,11 +248,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bcdd35fd-5094-40c8-ac4b-21183f8aada1" name="Default" comment="" />
-      <created>1519309420276</created>
+      <changelist id="b021137d-20c3-496b-9dda-60e0eb613e23" name="Default" comment="" />
+      <created>1519376301542</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1519309420276</updated>
+      <updated>1519376301542</updated>
     </task>
     <servers />
   </component>
@@ -360,14 +261,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -392,75 +292,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/StarRater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AddForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="initializer##0;class#AddForm#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TableSortFilterLivre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TableSortFilterActu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TableSortFilterJeux.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TableSortFilterAlbum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/find.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fenetre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
