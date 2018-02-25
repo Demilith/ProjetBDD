@@ -27,7 +27,7 @@ public class TableSortFilterAlbum extends JPanel {
             /* Exécution d'une requête de lecture */
             ResultSet resultat = statement.executeQuery("SELECT Titre, Note, Date_sortie, " +
                     "Statut, Auteur, Genre" +
-                    " FROM Oeuvres WHERE IdType=5;");
+                    " FROM Oeuvres WHERE IdTypes=5;");
 
             String[] columnNames = {"Titre",
                     "Note", "Date_sortie",

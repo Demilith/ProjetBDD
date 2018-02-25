@@ -5,10 +5,15 @@ import DtbGestion.SQLiteJDBCDriverConnection;
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -17,9 +22,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TableSortFilterActu extends JPanel {
+
+public static String mouse;
+
     private boolean DEBUG = false;
 
+
     public TableSortFilterActu() {
+        this.mouse=mouse;
         try (Connection connexion = SQLiteJDBCDriverConnection.connect()) {
             Statement statement = connexion.createStatement();
             //System.out.print( "Objet requête créé !" );
@@ -51,6 +61,25 @@ public class TableSortFilterActu extends JPanel {
 
             DefaultTableModel model = new DefaultTableModel(data, columnNames);
             JTable jTable = new JTable(model);
+
+            jTable.getSelectionModel().addListSelectionListener(new ListSelectionListener() {
+                @Override
+                public void valueChanged(ListSelectionEvent e) {
+                    if (e.getValueIsAdjusting()) {
+
+                        jTable.getSelectedRow();
+                        //System.out.print(jTable.getValueAt(jTable.getSelectedRow(),jTable.getSelectedColumn()).toString()+"\n");
+                         String mouse = jTable.getValueAt(jTable.getSelectedRow(),jTable.getSelectedColumn()).toString();
+                         System.out.print(mouse);
+
+                    }
+
+                }
+
+            });
+
+
+
 
 
             TableRowSorter<TableModel> rowSorter
@@ -119,6 +148,10 @@ public class TableSortFilterActu extends JPanel {
                 frame.setVisible(true);
             }
         });
+    }
+
+    public String mousereturn() {
+        return mouse;
     }
 }
 

@@ -2,8 +2,10 @@ package src;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class AddForm extends Container {
+public class AddFilmForm extends Container  {
     private JPanel panel1;
     private JCheckBox statutCheckBox;
     private JTextArea commentaireTextArea;
@@ -14,22 +16,15 @@ public class AddForm extends Container {
     private JTextField supportTextField;
     private JTextField langueTextField;
     private JTextField origineTextField;
-    private JFormattedTextField dateDeSortieFormattedTextField;
-    private JTextField duréeTextField;
+    private JFormattedTextField a1999FormattedTextField;
+    private JTextField dureeTextField;
 
 
     public static void main(String[] args) {
         JFrame Frame = new JFrame();
-        Frame.setContentPane(new AddForm().panel1);
+        Frame.setContentPane(new AddFilmForm().panel1);
         Frame.setVisible(true);
         Frame.setSize(600, 600);
-    }
-
-    /**
-     * @noinspection ALL
-     */
-    public JComponent $$$getRootComponent1$$$() {
-        return panel1;
     }
 
     {
@@ -51,6 +46,24 @@ public class AddForm extends Container {
         panel1.setLayout(new GridBagLayout());
         validerButton = new JButton();
         validerButton.setText("Valider");
+        validerButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String supportgetText = supportTextField.getText();
+                String titregetText = titreTextField.getText();
+                String genregetText = genreTextField.getText();
+                String commentairegetText = commentaireTextArea.getText();
+                String auteurgetText = auteurTextField.getText();
+                String languegetText = langueTextField.getText();
+                String originegetText = origineTextField.getText();
+                String dategetText = a1999FormattedTextField.getText();
+                String dureegetText = dureeTextField.getText();
+                boolean statutgetBox = statutCheckBox.isSelected();
+                System.out.println(supportgetText + "." + titregetText + "." + genregetText + "." + statutgetBox);
+
+            }
+        });
+
         GridBagConstraints gbc;
         gbc = new GridBagConstraints();
         gbc.gridx = 1;
@@ -111,15 +124,15 @@ public class AddForm extends Container {
         gbc.anchor = GridBagConstraints.WEST;
         gbc.fill = GridBagConstraints.HORIZONTAL;
         panel1.add(langueTextField, gbc);
-        dateDeSortieFormattedTextField = new JFormattedTextField();
-        dateDeSortieFormattedTextField.setText("Date de sortie");
+        a1999FormattedTextField = new JFormattedTextField();
+        a1999FormattedTextField.setText("1999");
         gbc = new GridBagConstraints();
         gbc.gridx = 1;
         gbc.gridy = 2;
         gbc.weightx = 1.0;
         gbc.anchor = GridBagConstraints.WEST;
         gbc.fill = GridBagConstraints.HORIZONTAL;
-        panel1.add(dateDeSortieFormattedTextField, gbc);
+        panel1.add(a1999FormattedTextField, gbc);
         commentaireTextArea = new JTextArea();
         commentaireTextArea.setText("Commentaire");
         gbc = new GridBagConstraints();
@@ -145,14 +158,15 @@ public class AddForm extends Container {
         gbc.gridy = 2;
         gbc.weightx = 1.0;
         panel1.add(starRater1, gbc);
-        duréeTextField = new JTextField();
-        duréeTextField.setText("Durée");
+        dureeTextField = new JTextField();
+        dureeTextField.setText("Durée");
         gbc = new GridBagConstraints();
         gbc.gridx = 0;
         gbc.gridy = 5;
         gbc.anchor = GridBagConstraints.WEST;
         gbc.fill = GridBagConstraints.HORIZONTAL;
-        panel1.add(duréeTextField, gbc);
+        panel1.add(dureeTextField, gbc);
+
     }
 
     /**
@@ -161,4 +175,9 @@ public class AddForm extends Container {
     public JComponent $$$getRootComponent$$$() {
         return panel1;
     }
+
+    public JCheckBox Oeuvre() {
+        return statutCheckBox;
+    }
 }
+

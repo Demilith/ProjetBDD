@@ -27,7 +27,7 @@ public class TableSortFilterFilm extends JPanel {
             /* Exécution d'une requête de lecture */
             ResultSet resultat = statement.executeQuery("SELECT Titre, Note, Date_sortie, " +
                     "Statut, Auteur, Genre" +
-                    " FROM Oeuvres WHERE IdType=1;");
+                    " FROM Oeuvres WHERE IdTypes=1;");
 
             String[] columnNames = {"Titre",
                     "Note", "Date_sortie",

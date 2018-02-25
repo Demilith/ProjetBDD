@@ -42,7 +42,7 @@ public class Fenetre extends JPanel implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent e) {
         JFrame frame = new JFrame();
-        frame.add(new AddForm().$$$getRootComponent$$$());
+        frame.add(new AddFilmForm().$$$getRootComponent$$$());
         frame.setVisible(true);
         frame.setSize(400, 400);
     }
