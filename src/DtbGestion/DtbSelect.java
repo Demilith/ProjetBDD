@@ -1,4 +1,4 @@
-package DtbGestion;
+package src.DtbGestion;
 
 import java.sql.*;
 import java.sql.ResultSet;

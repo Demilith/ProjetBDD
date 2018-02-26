@@ -1,4 +1,4 @@
-package DtbGestion;
+package src.DtbGestion;
 
 import java.sql.*;
 
@@ -14,10 +14,11 @@ public class SQLiteJDBCDriverConnection {
                 Statement statement = null;
                 ResultSet resultat = null;
                 try {
+                    System.out.print("bon");
                     // db parameters
                     String url = "jdbc:sqlite:src\\Ressources\\bdd_multimedia.db";
                     // create a connection to the database
-                    connexion = DriverManager.getConnection(url);
+                    connexion = DriverManager.getConnection(url, "root", "");
 
                     System.out.println("Connection to SQLite has been established.");
 

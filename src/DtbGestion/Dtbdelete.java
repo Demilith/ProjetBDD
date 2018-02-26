@@ -1,24 +1,29 @@
 package src.DtbGestion;
-import DtbGestion.SQLiteJDBCDriverConnection;
-import src.TableSortFilterActu;
-import src.TableSortFilterActu.*;
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import static src.TableSortFilterActu.mouse;
 
 
 public class Dtbdelete {
 
+    public void delete(){
 
-    public static void delete(){
-        String mouse = TableSortFilterActu.mouse;
-    try (Connection connexion = SQLiteJDBCDriverConnection.connect();){
-        /* Création de l'objet gérant les requêtes */
-        Statement statement =connexion.createStatement();
-        //System.out.print( "Objet requête créé !" );
+        System.out.print("je suis dedans!");
 
-        /* Exécution d'une requête de lecture */
-        ResultSet resultat =statement.executeQuery("DELETE FROM Oeuvres WHERE Titre = "+mouse+"");
+        try (Connection connexion = SQLiteJDBCDriverConnection.connect()) {
+
+            Statement statement = connexion.createStatement();
+            System.out.print( "Objet requête créé !" );
+
+            /* Exécution d'une requête de lecture */
+             statement.executeUpdate("DELETE FROM Oeuvres WHERE Titre = '"+mouse+"'");
+             System.out.print("Hey cest delete");
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
     }
+
 }
+

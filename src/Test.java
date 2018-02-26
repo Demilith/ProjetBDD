@@ -3,7 +3,10 @@ package src;
 import javax.swing.JFrame;
 import java.awt.*;
 
+
+
 public class Test {
+
     public static void main(String[] args) {
         //Create and set up the window.
         JFrame frame = new JFrame();

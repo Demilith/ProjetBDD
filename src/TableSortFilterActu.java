@@ -1,6 +1,7 @@
 package src;
 
-import DtbGestion.SQLiteJDBCDriverConnection;
+
+import src.DtbGestion.SQLiteJDBCDriverConnection;
 
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
@@ -11,9 +12,6 @@ import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -21,15 +19,18 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TableSortFilterActu extends JPanel {
+public class TableSortFilterActu extends JPanel{
 
-public static String mouse;
+
+    public static String mouse;
+
 
     private boolean DEBUG = false;
+    private JOptionPane mouse1;
 
 
-    public TableSortFilterActu() {
-        this.mouse=mouse;
+    public TableSortFilterActu()  {
+        this.mouse = mouse;
         try (Connection connexion = SQLiteJDBCDriverConnection.connect()) {
             Statement statement = connexion.createStatement();
             //System.out.print( "Objet requête créé !" );
@@ -69,8 +70,10 @@ public static String mouse;
 
                         jTable.getSelectedRow();
                         //System.out.print(jTable.getValueAt(jTable.getSelectedRow(),jTable.getSelectedColumn()).toString()+"\n");
-                         String mouse = jTable.getValueAt(jTable.getSelectedRow(),jTable.getSelectedColumn()).toString();
+                        TableSortFilterActu.mouse = jTable.getValueAt(jTable.getSelectedRow(),jTable.getSelectedColumn()).toString();
+
                          System.out.print(mouse);
+
 
                     }
 
@@ -153,6 +156,8 @@ public static String mouse;
     public String mousereturn() {
         return mouse;
     }
+
+
 }
 
 

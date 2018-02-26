@@ -6,6 +6,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class AddFilmForm extends Container  {
+
+    private static int selection;
     private JPanel panel1;
     private JCheckBox statutCheckBox;
     private JTextArea commentaireTextArea;
@@ -18,6 +20,7 @@ public class AddFilmForm extends Container  {
     private JTextField origineTextField;
     private JFormattedTextField a1999FormattedTextField;
     private JTextField dureeTextField;
+
 
 
     public static void main(String[] args) {
@@ -59,7 +62,10 @@ public class AddFilmForm extends Container  {
                 String dategetText = a1999FormattedTextField.getText();
                 String dureegetText = dureeTextField.getText();
                 boolean statutgetBox = statutCheckBox.isSelected();
-                System.out.println(supportgetText + "." + titregetText + "." + genregetText + "." + statutgetBox);
+                int starrater = selection;
+                System.out.println(supportgetText + "." + titregetText + "." + genregetText + "." + statutgetBox + "." + starrater);
+
+                src.DtbGestion.Dtbinsert.insert();
 
             }
         });
@@ -153,6 +159,14 @@ public class AddFilmForm extends Container  {
         gbc.fill = GridBagConstraints.HORIZONTAL;
         panel1.add(auteurTextField, gbc);
         final StarRater starRater1 = new StarRater();
+        starRater1.addStarListener(
+                new StarRater.StarListener()   {
+
+                    public void handleSelection(int selection) {
+                        System.out.println(selection);
+                        AddFilmForm.selection= selection;
+                    }
+                });
         gbc = new GridBagConstraints();
         gbc.gridx = 0;
         gbc.gridy = 2;

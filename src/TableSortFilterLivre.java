@@ -1,10 +1,12 @@
 package src;
 
-import DtbGestion.SQLiteJDBCDriverConnection;
+import src.DtbGestion.SQLiteJDBCDriverConnection;
 
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
@@ -18,6 +20,7 @@ import java.util.List;
 
 public class TableSortFilterLivre extends JPanel {
     private boolean DEBUG = false;
+    private static String mouse;
 
     public TableSortFilterLivre() {
         try (Connection connexion = SQLiteJDBCDriverConnection.connect()) {
@@ -51,6 +54,23 @@ public class TableSortFilterLivre extends JPanel {
 
             DefaultTableModel model = new DefaultTableModel(data, columnNames);
             JTable jTable = new JTable(model);
+            jTable.getSelectionModel().addListSelectionListener(new ListSelectionListener() {
+                @Override
+                public void valueChanged(ListSelectionEvent e) {
+                    if (e.getValueIsAdjusting()) {
+
+                        jTable.getSelectedRow();
+                        //System.out.print(jTable.getValueAt(jTable.getSelectedRow(),jTable.getSelectedColumn()).toString()+"\n");
+                        TableSortFilterLivre.mouse = jTable.getValueAt(jTable.getSelectedRow(),jTable.getSelectedColumn()).toString();
+
+                        System.out.print(mouse);
+
+
+                    }
+
+                }
+
+            });
 
             TableRowSorter<TableModel> rowSorter
                     = new TableRowSorter<>(jTable.getModel());

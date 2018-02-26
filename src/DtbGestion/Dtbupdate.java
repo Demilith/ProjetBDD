@@ -1,7 +1,9 @@
-package DtbGestion;
+package src.DtbGestion;
 
-import java.sql.*;
-
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 public class Dtbupdate {
 
     public static void update() {
