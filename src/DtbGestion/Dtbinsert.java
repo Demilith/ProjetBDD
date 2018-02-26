@@ -5,10 +5,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-/**
- *
- * @author sqlitetutorial.net
- */
+
 public class Dtbinsert {
     public static void insert() {
         try (Connection connexion = SQLiteJDBCDriverConnection.connect();){
