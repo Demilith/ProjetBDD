@@ -4,7 +4,7 @@
  * La classe FENETRE  est la classe qui permet d'afficher
  *
  * Auteur : Florian Molinie, Benjamin Barillot , Komlagan Tekou
- *          & L'incroyable Matthias Mayol
+ *          & Matthias Mayol
  *
  * Version : 0.9.0 (26 Février 2018 13h00)
  *

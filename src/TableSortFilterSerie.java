@@ -5,7 +5,7 @@
  * d'afficher dans un JTable les séries de la bdd
  *
  * Auteur : Florian Molinie, Benjamin Barillot , Komlagan Tekou
- *          & L'incroyable Matthias Mayol
+ *          & Matthias Mayol
  *
  * Version : 0.9.0 (26 Février 2018 13h00)
  *
