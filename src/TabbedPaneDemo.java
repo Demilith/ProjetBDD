@@ -1,3 +1,16 @@
+/**
+ * TabbedPane
+ *
+ * La classe TabbedPane  est la classe qui permet
+ * d'afficher des onglets conteneur qui affiche toutes les oeuvres
+ * en fonction du type d'oeuvre choisie .
+ *
+ * Auteur : Florian Molinie, Benjamin Barillot , Komlagan Tekou
+ *          & L'incroyable Matthias Mayol
+ *
+ * Version : 0.9.0 (26 Février 2018 13h00)
+ *
+ */
 package src;
 
 import javax.swing.*;

@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b021137d-20c3-496b-9dda-60e0eb613e23" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/DtbGestion/DtbSelect.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/DtbGestion/Dtbupdate.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/DtbGestion/SQLiteJDBCDriverConnection.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/net/sqlitetutorial/Dtbinsert.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/DtbGestion/Dtbdelete.class" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/src/DtbGestion/Dtbdelete.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/Fenetre.class" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/src/Fenetre.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterActu$1.class" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterActu$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterActu$2.class" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterActu$2.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterActu$3.class" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterActu$3.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterActu.class" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterActu.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterAlbum.class" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterAlbum.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterFilm.class" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterFilm.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterJeux.class" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterJeux.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterLivre.class" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterLivre.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterSerie.class" afterPath="$PROJECT_DIR$/out/production/ProjetBDD/src/TableSortFilterSerie.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetBDD/src/Test.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/AddFilmForm.java" afterPath="$PROJECT_DIR$/src/AddFilmForm.java" />
-      <change beforePath="$PROJECT_DIR$/src/DtbGestion/DtbSelect.java" afterPath="$PROJECT_DIR$/src/DtbGestion/DtbSelect.java" />
-      <change beforePath="$PROJECT_DIR$/src/DtbGestion/Dtbdelete.java" afterPath="$PROJECT_DIR$/src/DtbGestion/Dtbdelete.java" />
-      <change beforePath="$PROJECT_DIR$/src/DtbGestion/Dtbinsert.java" afterPath="$PROJECT_DIR$/src/DtbGestion/Dtbinsert.java" />
-      <change beforePath="$PROJECT_DIR$/src/DtbGestion/Dtbupdate.java" afterPath="$PROJECT_DIR$/src/DtbGestion/Dtbupdate.java" />
-      <change beforePath="$PROJECT_DIR$/src/DtbGestion/SQLiteJDBCDriverConnection.java" afterPath="$PROJECT_DIR$/src/DtbGestion/SQLiteJDBCDriverConnection.java" />
       <change beforePath="$PROJECT_DIR$/src/Fenetre.java" afterPath="$PROJECT_DIR$/src/Fenetre.java" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/bdd_multimedia.db" afterPath="$PROJECT_DIR$/src/Ressources/bdd_multimedia.db" />
+      <change beforePath="$PROJECT_DIR$/src/ImageFrame.java" afterPath="$PROJECT_DIR$/src/ImageFrame.java" />
       <change beforePath="$PROJECT_DIR$/src/TabbedPaneDemo.java" afterPath="$PROJECT_DIR$/src/TabbedPaneDemo.java" />
       <change beforePath="$PROJECT_DIR$/src/TableSortFilterActu.java" afterPath="$PROJECT_DIR$/src/TableSortFilterActu.java" />
       <change beforePath="$PROJECT_DIR$/src/TableSortFilterAlbum.java" afterPath="$PROJECT_DIR$/src/TableSortFilterAlbum.java" />
@@ -35,7 +11,6 @@
       <change beforePath="$PROJECT_DIR$/src/TableSortFilterJeux.java" afterPath="$PROJECT_DIR$/src/TableSortFilterJeux.java" />
       <change beforePath="$PROJECT_DIR$/src/TableSortFilterLivre.java" afterPath="$PROJECT_DIR$/src/TableSortFilterLivre.java" />
       <change beforePath="$PROJECT_DIR$/src/TableSortFilterSerie.java" afterPath="$PROJECT_DIR$/src/TableSortFilterSerie.java" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" afterPath="$PROJECT_DIR$/src/Test.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,40 +30,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Fenetre.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Fenetre.java">
+      <file leaf-file-name="TableSortFilterActu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TableSortFilterActu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="711">
-              <caret line="76" column="13" lean-forward="true" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2003#2004#0" expanded="true" />
-                <element signature="e#2051#2052#0" expanded="true" />
-                <element signature="e#2381#2382#0" expanded="true" />
-                <element signature="e#2438#2439#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Consulter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Consulter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-971">
-              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="3" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#5865#5866#0" expanded="true" />
+                <element signature="e#5893#5894#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TabbedPaneDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TabbedPaneDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -96,21 +48,51 @@
       <file leaf-file-name="TableSortFilterSerie.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TableSortFilterSerie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="32" column="54" lean-forward="true" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+            <state relative-caret-position="84">
+              <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dtbdelete.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DtbGestion/Dtbdelete.java">
+      <file leaf-file-name="TableSortFilterAlbum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TableSortFilterAlbum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="76" lean-forward="true" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
+            <state relative-caret-position="84">
+              <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableSortFilterFilm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TableSortFilterFilm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableSortFilterJeux.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TableSortFilterJeux.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="54" lean-forward="false" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableSortFilterLivre.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TableSortFilterLivre.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -153,19 +135,20 @@
         <option value="$PROJECT_DIR$/src/DtbGestion/Dtbinsert.java" />
         <option value="$PROJECT_DIR$/src/DtbGestion/SQLiteJDBCDriverConnection.java" />
         <option value="$PROJECT_DIR$/src/DtbGestion/Dtbdelete.java" />
+        <option value="$PROJECT_DIR$/src/Consulter.java" />
+        <option value="$PROJECT_DIR$/src/Fenetre.java" />
+        <option value="$PROJECT_DIR$/src/ImageFrame.java" />
         <option value="$PROJECT_DIR$/src/TableSortFilterActu.java" />
+        <option value="$PROJECT_DIR$/src/TabbedPaneDemo.java" />
+        <option value="$PROJECT_DIR$/src/TableSortFilterSerie.java" />
         <option value="$PROJECT_DIR$/src/TableSortFilterAlbum.java" />
         <option value="$PROJECT_DIR$/src/TableSortFilterFilm.java" />
         <option value="$PROJECT_DIR$/src/TableSortFilterJeux.java" />
-        <option value="$PROJECT_DIR$/src/TableSortFilterSerie.java" />
         <option value="$PROJECT_DIR$/src/TableSortFilterLivre.java" />
-        <option value="$PROJECT_DIR$/src/Consulter.java" />
-        <option value="$PROJECT_DIR$/src/Fenetre.java" />
-        <option value="$PROJECT_DIR$/src/TabbedPaneDemo.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="width" value="976" />
     <option name="height" value="1088" />
@@ -469,7 +452,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -520,9 +503,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#5555#5556#0" expanded="true" />
-            <element signature="e#5583#5584#0" expanded="true" />
+            <element signature="e#5865#5866#0" expanded="true" />
+            <element signature="e#5893#5894#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -600,9 +584,10 @@
         <state relative-caret-position="126">
           <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding>
+            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#5555#5556#0" expanded="true" />
-            <element signature="e#5583#5584#0" expanded="true" />
+            <element signature="e#5865#5866#0" expanded="true" />
+            <element signature="e#5893#5894#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -781,14 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ImageFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AddForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41">
@@ -850,57 +827,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TableSortFilterAlbum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1071">
-          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TableSortFilterFilm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TableSortFilterJeux.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TableSortFilterLivre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="59" column="50" lean-forward="true" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AddFilmForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TableSortFilterActu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5555#5556#0" expanded="true" />
-            <element signature="e#5583#5584#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -914,43 +845,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TableSortFilterSerie.java">
+    <entry file="file://$PROJECT_DIR$/src/Consulter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="32" column="54" lean-forward="true" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
-          <folding />
+        <state relative-caret-position="273">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Fenetre.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="76" column="13" lean-forward="true" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#2003#2004#0" expanded="true" />
-            <element signature="e#2051#2052#0" expanded="true" />
-            <element signature="e#2381#2382#0" expanded="true" />
-            <element signature="e#2438#2439#0" expanded="true" />
+            <element signature="e#2240#2241#0" expanded="true" />
+            <element signature="e#2288#2289#0" expanded="true" />
+            <element signature="e#2618#2619#0" expanded="true" />
+            <element signature="e#2675#2676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImageFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TabbedPaneDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="-42">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Consulter.java">
+    <entry file="file://$PROJECT_DIR$/src/TableSortFilterActu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-971">
-          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#5865#5866#0" expanded="true" />
+            <element signature="e#5893#5894#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TableSortFilterSerie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TableSortFilterAlbum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TableSortFilterFilm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TableSortFilterJeux.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="54" lean-forward="false" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TableSortFilterLivre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,15 @@
+/**
+ * FENETRE
+ *
+ * La classe FENETRE  est la classe qui permet d'afficher
+ *
+ * Auteur : Florian Molinie, Benjamin Barillot , Komlagan Tekou
+ *          & L'incroyable Matthias Mayol
+ *
+ * Version : 0.9.0 (26 Février 2018 13h00)
+ *
+ */
 package src;
-
 import src.DtbGestion.Dtbdelete;
 
 import javax.swing.*;
