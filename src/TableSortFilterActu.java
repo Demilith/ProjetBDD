@@ -41,7 +41,7 @@ public class TableSortFilterActu extends JPanel{
     private JOptionPane mouse1;
 
 
-    public TableSortFilterActu()  {
+    public TableSortFilterActu()      {
         this.mouse = mouse;
         try (Connection connexion = SQLiteJDBCDriverConnection.connect()) {
             Statement statement = connexion.createStatement();
@@ -161,6 +161,7 @@ public class TableSortFilterActu extends JPanel{
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 frame.setLocationRelativeTo(null);
                 frame.setVisible(true);
+
             }
         });
     }

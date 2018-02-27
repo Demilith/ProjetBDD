@@ -65,7 +65,10 @@ public class AddFilmForm extends Container  {
                 int starrater = selection;
                 System.out.println(supportgetText + "." + titregetText + "." + genregetText + "." + statutgetBox + "." + starrater);
 
-                src.DtbGestion.Dtbinsert.insert();
+                src.DtbGestion.Dtbinsert.insert("INSERT INTO 'Oeuvres'('Titre','Note','Origine'," +
+                        "'Date_sortie','Commentaires','Langue','Statut','Auteur','Duree','Genre','Support'," +
+                        "'IdTypes') VALUES ('"+titregetText+"','"+starrater+"','"+originegetText+"','"+dategetText+"','"+commentairegetText+"'," +
+                        "'"+languegetText+"','"+statutgetBox+"','"+auteurgetText+"','"+dureegetText+"','"+genregetText+"','"+supportgetText+"', 1)");
 
             }
         });
